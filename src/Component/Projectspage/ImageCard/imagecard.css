@@ -1,0 +1,25 @@
+.image {
+  border-radius: 25px;
+  width: 500px;
+  filter: blur(2px);
+}
+.images {
+  backdrop-filter: blur(15px);
+  background-color: #242424;
+  outline: 2px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 15px;
+  gap: 8px;
+  border-radius: 50px;
+}
+.image:hover {
+  filter: blur(0);
+  cursor: pointer;
+}
+@media only screen and (max-width: 480px) {
+  .image {
+    width: 200px;
+  }
+}

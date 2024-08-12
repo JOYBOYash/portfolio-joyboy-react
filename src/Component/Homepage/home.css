@@ -1,0 +1,226 @@
+.name {
+  color: gray;
+  text-shadow: 5px 5px 10px black;
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  font-size: 50px;
+}
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  scale: 1.05;
+}
+.banner {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.codewidth {
+  width: auto;
+}
+.desc {
+  font-size: 36px;
+  color: #fff;
+  filter: opacity(0.75);
+  animation: fade-in 1s forwards linear;
+}
+.intro {
+  background-color: #fff;
+  width: 1000px;
+}
+#home {
+  overflow: hidden;
+}
+.home {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  background-color: cover;
+  background-repeat: no-repeat;
+  /* background-image: url(/src/assets/Images/montery_upscaled.jpg); */
+  /* align-self: center; */
+}
+span {
+  color: #fff;
+}
+.text-bx {
+  /* padding: 500px; */
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fff; */
+}
+.code {
+  width: 50px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.code {
+  filter: drop-shadow(3px 3px 5px black);
+  animation: logo-slide 5s infinite linear;
+}
+.cred {
+  font-size: 12px;
+  text-align: right;
+  font-family: "Space Grotesk", sans-serif;
+  filter: opacity(0.25);
+  background-color: transparent;
+}
+.cred:hover {
+  color: gold;
+}
+@keyframes logo-slide {
+  0% {
+    transform: translateX(-220px);
+  }
+  50% {
+    transform: translateX(220px);
+  }
+  100% {
+    transform: translateX(-220px);
+  }
+}
+
+.numbers {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  width: 45vw;
+  filter: drop-shadow(5px 5px 5px black);
+}
+.nproject {
+  outline: 2px solid #ddd;
+  padding: 15px;
+  height: 8vh;
+  width: 15vw;
+  background-color: #0000005e;
+  backdrop-filter: blur(25px);
+  display: flex;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nhead {
+  font-family: "Anton", sans-serif;
+  font-size: 45px;
+  color: #ddd;
+  text-shadow: 3px 3px 3px orangered;
+  font-weight: 100;
+}
+.nsub {
+  font-family: "Space Grotesk", sans-serif;
+  color: gray;
+}
+
+@media only screen and (max-width: 480px) {
+  .name {
+    font-size: 26px;
+    animation: fade-in 2s 1s forwards linear;
+  }
+  .home {
+    overflow-x: hidden;
+  }
+  .nhead {
+    font-size: 22px;
+  }
+  .numbers {
+    display: flex;
+    flex-direction: column;
+  }
+  .codewidth {
+    width: 250px;
+    overflow: hidden;
+  }
+  .nproject {
+    width: 28vw;
+    text-align: center;
+  }
+  #video {
+    width: 320px;
+    scale: 5;
+    height: 100vh;
+  }
+  .np1,
+  .np2,
+  .np3 {
+    text-align: center;
+    animation: slide-in 2s 1s forwards cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  }
+  .np2 {
+    animation-delay: 2s;
+  }
+  .np3 {
+    animation-delay: 3s;
+  }
+  .nsub {
+    font-size: 16px;
+  }
+  .code {
+    animation: logo-slide 3s infinite linear;
+  }
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-220px);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      /* transform: translateX(-220px); */
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      /* transform: translateX(0px); */
+      opacity: 1;
+    }
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-220px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

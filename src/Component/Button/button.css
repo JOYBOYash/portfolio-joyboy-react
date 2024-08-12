@@ -1,0 +1,20 @@
+.btn {
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  background-color: orangered;
+  outline: 2px solid black;
+  color: black;
+  border: none;
+  min-width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 22px;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  outline: 2px solid white;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
