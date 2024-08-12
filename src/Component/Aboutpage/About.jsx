@@ -17,7 +17,11 @@ function About() {
               <h2 className="skill">
                 <span>Web</span> and <span>Game</span> design
               </h2>
-              <Button label="HIRE ME !" source="" className="hire"></Button>
+              <Button
+                label="HIRE ME !"
+                source="https://www.linkedin.com/in/sri-swaroop-kumar-joyboy/"
+                className="hire"
+              ></Button>
             </div>
           </div>
           <div className="profile profile2">
@@ -40,7 +44,10 @@ function About() {
                   Plans and Conducts events on behalf of ISF - SET, DSU.
                 </p>
               </div>
-              <Button label="Browse Projects !  " source=""></Button>
+              <Button
+                label="Browse Projects !  "
+                source="https://github.com/JOYBOYash?tab=repositories"
+              ></Button>
             </div>
           </div>
         </div>
