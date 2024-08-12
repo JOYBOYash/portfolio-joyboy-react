@@ -1,8 +1,8 @@
-# React + Vite
+# Sri Swaroop Kumar Akili Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive, SEO Optimised Portfolio webpage that fits and represents the personality of ME.
 
-Currently, two official plugins are available:
+It was made as a part of WEEK 1 Project of my Software Engineering  Fellowship at HEadstarter.ai.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Credits:
+Awesome Video that solved my 72hrs problem in 5-8 mins : [Deploy Vite+React into Github Pages.]((https://youtu.be/XhoWXhyuW_I?si=rh1_Jlh0yyQ--6-P))
